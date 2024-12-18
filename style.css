@@ -1,0 +1,104 @@
+body {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  margin-bottom: 7%;
+}
+
+.text1 {
+  position: absolute;
+  bottom: 25%;
+  left: 0;
+}
+
+.text2 {
+  position: absolute;
+  bottom: 40%;
+  right: 0;
+}
+
+.text3 {
+  position: absolute;
+  bottom: 10%;
+  right: 50%;
+}
+
+.text4 {
+  position: absolute;
+  bottom: 65%;
+  left: 100px;
+}
+
+.text5 {
+  position: absolute;
+  bottom: 65%;
+  right: 100px;
+}
+
+.text6 {
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+  }
+  
+.text7 {
+    position: absolute;
+    bottom: 40%;
+    right: 0;
+  }
+  
+.text8 {
+      position: absolute;
+      bottom: 10%;
+      right: 50%;
+    }
+
+    .text9 {
+      position: absolute;
+      bottom: 65%;
+      left: 100px;
+    }
+
+    .text10 {
+      position: absolute;
+      bottom: 65%;
+      right: 100px;
+    }
+
+.carBuddy {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 75px;
+  background-color: beige;
+  position: relative;
+}
+
+.car {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 90px;
+  background-color: beige;
+  position: relative;
+}
+
+.leftOne {
+  border-radius: 100%;
+  height: 90px;
+  width: 90px;
+  animation: rotation 2s infinite linear;
+}
+.rightOne {
+  border-radius: 100%;
+  height: 90px;
+  width: 90px;
+  margin-left: 90px;
+  animation: rotation 2s infinite linear;
+}
+
+.invisible {
+  display: none;
+}
