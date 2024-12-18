@@ -7,65 +7,74 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-<h1>Hello From github</h1>
+    <h1>Hello From github</h1>
+    <h2>Hello From PC</h2>
+
     <div>
-    <button class="button start" id="start" onclick="startlumbergini()">
-      Start Lumbergini Engine
-    </button>
-    <button class="button stop1 invisible" id="stop" onclick="stopLumbergini()">
-      Stop Lumbergini Engine
-    </button>
-    <div class="carBuddy" id="carBuddy1"></div>
-    <div class="car car1">
-      <p class="text1" id="model"></p>
-      <p class="text2" id="year"></p>
-      <p class="text3" id="color1"></p>
-      <p class="text4" id="newText1"></p>
-      <p class="text5" id="newText2"></p>
+      <button class="button start" id="start" onclick="startlumbergini()">
+        Start Lumbergini Engine
+      </button>
+      <button
+        class="button stop1 invisible"
+        id="stop"
+        onclick="stopLumbergini()"
+      >
+        Stop Lumbergini Engine
+      </button>
+      <div class="carBuddy" id="carBuddy1"></div>
+      <div class="car car1">
+        <p class="text1" id="model"></p>
+        <p class="text2" id="year"></p>
+        <p class="text3" id="color1"></p>
+        <p class="text4" id="newText1"></p>
+        <p class="text5" id="newText2"></p>
+      </div>
+      <div class="wheel">
+        <img class="leftOne" id="left" src="rider.webp" alt="" srcset="" />
+        <img class="rightOne" id="right" src="rider.webp" alt="" srcset="" />
+      </div>
     </div>
-    <div class="wheel">
-      <img class="leftOne" id="left" src="rider.webp" alt="" srcset="" />
-      <img class="rightOne" id="right" src="rider.webp" alt="" srcset="" />
-    </div>
-  </div>
 
-  <select name="" id="selection">
-    <option value="1">Lumbergini</option>
-    <option value="2">Lumbergini</option>
-  </select>
+    <select name="" id="selection">
+      <option value="1">Lumbergini</option>
+      <option value="2">Lumbergini</option>
+    </select>
 
-  <label>Plate</label>
-  <input id="plate" type="text">
-  <label>Owner</label>
-  <input id="owner" type="text">
-  <button onclick="submit()">Submit</button>
+    <label>Plate</label>
+    <input id="plate" type="text" />
+    <label>Owner</label>
+    <input id="owner" type="text" />
+    <button onclick="submit()">Submit</button>
 
-  <div>
-    <button class="button start2" id="start2" onclick="startmercides()">
-      Start Mercides Engine
-    </button>
-    <button class="button stop2 invisible" id="stop2" onclick="stopMercides()">
-      Stop Mercides Engine
-    </button>
     <div>
-    <div class="carBuddy" id="carBuddy2"></div>
-    <div class="car car2">
-      <p class="text6" id="model2"></p>
-      <p class="text7" id="year2"></p>
-      <p class="text8" id="color2"></p>
-      <p class="text9" id="plate2"></p>
-      <p class="text10" id="owner2"></p>
-
-    </div></div>
-    <div class="wheel">
-      <img class="leftOne" id="left2" src="rider.webp" alt="" srcset="" />
-      <img class="rightOne" id="right2" src="rider.webp" alt="" srcset="" />
+      <button class="button start2" id="start2" onclick="startmercides()">
+        Start Mercides Engine
+      </button>
+      <button
+        class="button stop2 invisible"
+        id="stop2"
+        onclick="stopMercides()"
+      >
+        Stop Mercides Engine
+      </button>
+      <div>
+        <div class="carBuddy" id="carBuddy2"></div>
+        <div class="car car2">
+          <p class="text6" id="model2"></p>
+          <p class="text7" id="year2"></p>
+          <p class="text8" id="color2"></p>
+          <p class="text9" id="plate2"></p>
+          <p class="text10" id="owner2"></p>
+        </div>
+      </div>
+      <div class="wheel">
+        <img class="leftOne" id="left2" src="rider.webp" alt="" srcset="" />
+        <img class="rightOne" id="right2" src="rider.webp" alt="" srcset="" />
+      </div>
     </div>
-  </div>
     <script src="script.js"></script>
   </body>
 </html>
-
 
 <!-- 
 1- car below the first car and takes its own values
