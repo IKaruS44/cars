@@ -21,7 +21,6 @@ var lumbergini = document.getElementById("Lumbergini")
 var mercides = document.getElementById("Mercides")
 var selection = document.getElementById("selection")
 
-
 var x = 1;
 var y = 1;
 var myInterval;
@@ -51,7 +50,7 @@ class cars {
   }
 }
 var realCar = new cars("Lumbergini", 2026, "red",1);
-var realCar2 = new cars("Lumbergini", 2026, "red",2);
+var realCar2 = new cars("Mercides", 2026, "red",2);
 
 newText1.innerHTML = realCar.platee;
 newText2.innerHTML = realCar.ownerr;
